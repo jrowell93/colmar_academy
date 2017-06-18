@@ -1,0 +1,46 @@
+body{
+  width:auto;
+  margin:auto;
+}
+.header{
+  height:64px;
+  width:100%;
+  background-color: #63CCCA;
+  display:flex;
+  justify-content: flex-end;
+
+}
+.header img{
+  height:3rem;
+  padding:10px;
+  position:absolute;
+  left: 24px;
+}
+.header h1{
+  font-family: Source Sans Pro
+  ;
+  font-size: 2rem;
+  position:absolute;
+  left: 65px;
+  padding: 15px;
+  color:#5E656B;
+  letter-spacing: .25px;
+}
+.colorchange{
+  color:#eeeeee;
+  font-weight: bold;
+}
+
+.header ul{
+ list-style: none;
+ display:flex;
+ align-items: center;
+
+
+}
+.header li{
+  padding:11px;
+  font-size: 1.25rem;
+  color:#ffffff;
+  font-family: Helvetica;
+}
