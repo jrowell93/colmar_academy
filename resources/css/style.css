@@ -1,11 +1,11 @@
 body{
-  width:auto;
+  width:100%;
   margin:auto;
   background-color: #5E656B;
   font-size: 16px;
 }
 .header{
-  height:64px;
+  height:4rem;
   width:100%;
   background-color: white;
   display:flex;
@@ -15,19 +15,19 @@ body{
 }
 .header img{
   height:3rem;
-  padding:10px;
+  padding:0.625rem;
   position:absolute;
-  left: 24px;
+  left: 1.5rem;
 }
 .header h1{
   font-family: Source Sans Pro;
   font-size: 2rem;
   position:absolute;
-  left: 65px;
-  padding: 15px;
+  left: 4.063rem;
+  padding: 0.94rem;
   color:#5E656B;
   letter-spacing: .10px;
-  top:8px;
+  top:.5rem;
 }
 .colorchange{
   color:#657C87;
@@ -40,7 +40,7 @@ body{
  margin-top: 1.50rem;
 }
 .header li a{
-  padding:11px;
+  padding:0.68rem;
   font-size: 1.25rem;
   color:black;
   font-family: Helvetica;
@@ -56,19 +56,19 @@ body{
 /*main section styling*/
 .mainsection{
   position: relative;
-  top: 69px;
-  left:30px;
-  right:30px;
+  top: 4.3125rem;
+  left:1.875rem;
+  right:1.875rem;
   width:95%;
   background-color: #00A9A5;
 }
 .banner{
   position: relative;
   width: 60%;
-  top:20px;
-  left: 20px;
-  bottom: 20px;
-  top:20px;
+  top:1.25rem;
+  left: 1.25rem;
+  bottom: 1.25rem;
+  top:1.25rem;
 }
 .mainsection h1{
   font-weight: thin;
@@ -102,9 +102,9 @@ body{
 /*middlesection div styling*/
 .middlesection{
   position: relative;
-  top: 80px;
-  left:30px;
-  right:30px;
+  top: 5rem;
+  left:1.875rem;
+  right:1.875rem;
   width:95%;
   height:95%;
   background-color: #657C87;
@@ -274,4 +274,36 @@ body{
   font-size: 1.25rem;
   text-decoration: underline;
   color:white;
+}
+/*third section*/
+.thirdsection{
+  position: relative;
+  top: 5.6rem;
+  left:2rem;
+  right:2rem;
+  width:95%;
+  height:55rem;
+  background-color: #00A9A5;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.thirdsection .course:hover{
+  transition: background-color 200ms ease .01s;
+  background-color: #00A9A5;
+}
+.thirdsection .course{
+  width: 16rem;
+  height:20rem;
+  background-color: #0C3035;
+  margin: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  position:relative;
+  left:3.5rem;
+  top:10rem;
+}
+.thirdsection .course img{
+  width:16rem;
+  height:10rem;
 }
