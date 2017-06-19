@@ -2,6 +2,7 @@ body{
   width:auto;
   margin:auto;
   background-color: #5E656B;
+  font-size: 16px;
 }
 .header{
   height:64px;
@@ -11,7 +12,6 @@ body{
   justify-content: flex-end;
   position: fixed;
   z-index: 5;
-
 }
 .header img{
   height:3rem;
@@ -33,14 +33,11 @@ body{
   color:#657C87;
   font-weight: bold;
 }
-
 .header ul{
  list-style: none;
  display:flex;
  align-items: center;
  margin-top: 1.50rem;
-
-
 }
 .header li a{
   padding:11px;
@@ -51,7 +48,11 @@ body{
 }
 .header li a:hover{
   transition: color 200ms ease-in-out 0.15s;
-  color: #0B5351;}
+  color: #0B5351;
+  transition: text-decoration 0s ease-in 0s;
+  text-decoration: underline;
+}
+
 /*main section styling*/
 .mainsection{
   position: relative;
@@ -61,8 +62,7 @@ body{
   width:95%;
   background-color: #00A9A5;
 }
-.banner
-{
+.banner{
   position: relative;
   width: 60%;
   top:20px;
@@ -70,7 +70,6 @@ body{
   bottom: 20px;
   top:20px;
 }
-
 .mainsection h1{
   font-weight: thin;
   font-family: Source Sans Pro;
@@ -93,12 +92,186 @@ body{
 .bannerbutton:hover{
   transition: background-color 200ms ease-in-out 0.15s;
   background-color: #0C3035;
-
 }
 .bannerbutton h2{
   font-weight: thin;
   font-family: Source Sans Pro;
   font-size: 3em;
   color:white;
+}
+/*middlesection div styling*/
+.middlesection{
+  position: relative;
+  top: 80px;
+  left:30px;
+  right:30px;
+  width:95%;
+  height:95%;
+  background-color: #657C87;
+}
+.middlesection .left img{
+  position: relative;
+  width: 47rem;
+  height:25rem;
+  left: 1.25rem;
+  top:1.25rem;
+}
+.middlesection .left h1{
+  font-weight: thin;
+  font-family: Source Sans Pro;
+  font-size: 3em;
+  position: absolute;
+  left: 5%;
+  bottom:25%;
+  color: white;
+}
+.middlesection .left p{
+  font-weight: thin;
+  font-family: arial;
+  font-size: 1.25em;
+  position: absolute;
+  left: 1%;
+  bottom:15%;
+  color: white;
+  text-align: center;
+}
+.middlesection .left .name{
+  font-weight: thin;
+  font-family: arial;
+  font-size: 1.5em;
+  position: absolute;
+  left: 28%;
+  bottom:7%;
+  color: white;
+  text-align: center;
+}
+/*orientation section*/
+.middlesection .right .one:hover{
+  transition: background-color 200ms ease .01s;
+  background-color: #657C87;
+  border: 1px solid #657C87;
+}
+.middlesection .right .one h1{
+  color:white;
+  font-size: 2em;
+  left: 11rem;
+  top:1em;
+}
+.middlesection .right .one{
+  position: absolute;
+  /*width:35%;
+  height:30%;*/
+  width:26.5rem;
+  height:12rem;
+  border: 1px solid #A2B2B2;
+  background-color: #A2B2B2;
+  left: 64%;
+  top:1%;
+}
+.middlesection .right .one img{
+  position: relative;
+  left: 2%;
+  width:10rem;
+  height:10rem;
+}
+.middlesection .right .one p{
+  position: relative;
+  left: 20%;
+  bottom:40%;
+  font-size: 1rem;
 
+}
+.middlesection .right .one a{
+  position: relative;
+  left: 55%;
+  bottom:4rem;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  color:white;
+
+}
+/*our campus*/
+.middlesection .right .two:hover{
+  transition: background-color 200ms ease .01s;
+  background-color: #657C87;
+  border: 1px solid #657C87;
+}
+.middlesection .right .two h1{
+  color:white;
+  font-size: 2em;
+  left: 13rem;
+  top:1em;
+}
+.middlesection .right .two{
+  position: relative;
+  width:26.5rem;
+  height:13rem;
+  border: 1px solid #A2B2B2;
+  background-color: #A2B2B2;
+  top:3%;
+
+}
+.middlesection .right .two img{
+  position: relative;
+  left: 2%;
+  width:10rem;
+  height:10rem;
+}
+.middlesection .right .two p{
+  position: relative;
+  left: 20%;
+  bottom:40%;
+  font-size: 1rem;
+
+}
+.middlesection .right .two a{
+  position: relative;
+  left: 55%;
+  bottom:4rem;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  color:white;
+
+}
+/*guest lecture section*/
+.middlesection .right .three:hover{
+  transition: background-color 200ms ease .01s;
+  background-color: #657C87;
+  border: 1px solid #657C87;
+}
+.middlesection .right .three h1{
+  color:white;
+  font-size: 2em;
+  left: 10.5rem;
+  top:1em;
+  text-align: center;
+}
+.middlesection .right .three{
+  position: relative;
+  width:26.5rem;
+  height:13rem;
+  border: 1px solid #A2B2B2;
+  background-color: #A2B2B2;
+  top:10%;
+}
+.middlesection .right .three img{
+  position: relative;
+  left: 2%;
+  width:10rem;
+  height:10rem;
+}
+.middlesection .right .three p{
+  position: relative;
+  left: 20%;
+  bottom:25%;
+  font-size: 1rem;
+
+}
+.middlesection .right .three a{
+  position: relative;
+  left: 55%;
+  bottom:2rem;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  color:white;
 }
