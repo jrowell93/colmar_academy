@@ -1,13 +1,17 @@
 body{
   width:auto;
   margin:auto;
+  background-color: #5E656B;
 }
 .header{
   height:64px;
   width:100%;
-  background-color: #63CCCA;
+  /*background-color: #63CCCA;*/
+  background-color: white;
   display:flex;
   justify-content: flex-end;
+  position: fixed;
+  z-index: 5;
 
 }
 .header img{
@@ -17,30 +21,77 @@ body{
   left: 24px;
 }
 .header h1{
-  font-family: Source Sans Pro
-  ;
+  font-family: Source Sans Pro;
   font-size: 2rem;
   position:absolute;
   left: 65px;
   padding: 15px;
   color:#5E656B;
-  letter-spacing: .25px;
+  letter-spacing: .10px;
+  top:8px;
 }
 .colorchange{
-  color:#eeeeee;
+  /*color:#eeeeee;*/
+  color:#657C87;
   font-weight: bold;
 }
 
 .header ul{
  list-style: none;
  display:flex;
- align-items: center;
+ align-items: flex-end;
+
 
 
 }
 .header li{
   padding:11px;
   font-size: 1.25rem;
-  color:#ffffff;
+  /*color:#ffffff;*/
+  color:black;
   font-family: Helvetica;
+
+}
+/*main section styling*/
+.mainsection{
+  position: relative;
+  top: 69px;
+  left:30px;
+  right:30px;
+  width:95%;
+  /*background-color: #5DA399;*/
+  background-color: #00A9A5;
+}
+.banner
+{
+  width: 60%;
+  top:20px;
+  left: 20px;
+  bottom: 20px;
+}
+.mainsection h1{
+  font-weight: thin;
+  font-family: Source Sans Pro;
+  font-size: 3em;
+  position: absolute;
+  left: 65%;
+  bottom:70%;
+  color: white;
+}
+.bannerbutton{
+  background-color:#657C87;
+  height:6rem;
+  width:20rem;
+  border-radius: 2px;
+  border: none;
+  position: relative;
+  left:4rem;
+  bottom:15rem;
+}
+.bannerbutton h2{
+  font-weight: thin;
+  font-family: Source Sans Pro;
+  font-size: 2em;
+  color:white;
+
 }
