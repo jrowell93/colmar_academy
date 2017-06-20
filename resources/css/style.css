@@ -333,3 +333,36 @@ body{
   position: relative;
   top:2rem;
 }
+/*final section*/
+.lastsection{
+    position: relative;
+    top: 6.5rem;
+    left:1.875rem;
+    right:1.875rem;
+    width:95%;
+    height:95%;
+    background-color: #657C87;
+}
+.lastsection video{
+  position: relative;
+  left:1.875rem;
+}
+.lastsection h1{
+  font-weight: thin;
+  font-family: Source Sans Pro;
+  font-size: 3em;
+  position: absolute;
+  left:8.5rem;
+  bottom:7rem;
+  color: white;
+}
+.lastsection p{
+  font-weight: thin;
+  font-family: arial;
+  font-size: 1.25em;
+  position: absolute;
+  left: 1%;
+  bottom:2rem;
+  color: white;
+  text-align: center;
+}
