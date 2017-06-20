@@ -288,6 +288,14 @@ body{
   flex-wrap: wrap;
   flex-direction: column;
 }
+.thirdsection .startlearning{
+  font-family: Source Sans Pro;
+  font-size: 2em;
+  position: absolute;
+  color: white;
+  left:32rem;
+  top:1rem;
+}
 .thirdsection .course:hover{
   transition: background-color 200ms ease .01s;
   background-color: #00A9A5;
@@ -295,15 +303,33 @@ body{
 .thirdsection .course{
   width: 16rem;
   height:20rem;
-  background-color: #0C3035;
-  margin: 1rem;
+  background-color: #657C87;
+  margin: 0.75rem;
   flex-wrap: wrap;
   align-items: flex-end;
   position:relative;
   left:3.5rem;
-  top:10rem;
+  top:5rem;
 }
 .thirdsection .course img{
   width:16rem;
   height:10rem;
+}
+.thirdsection .course h1{
+  font-family: Arial Narrow;
+  font-size: 1.25rem;
+  color: white;
+  position:relative;
+  /*left: 2.25rem;*/
+  top:1rem;
+  letter-spacing:0.05rem;
+  text-align: center;
+}
+.thirdsection .course p{
+  font-family: arial;
+  font-size:1.15rem;
+  text-align: center;
+  color:white;
+  position: relative;
+  top:2rem;
 }
