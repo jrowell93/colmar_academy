@@ -436,3 +436,420 @@ footer p{
   font-family:Helvetica;
   padding:.20rem;
 }
+/*start mobile styling*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  body{
+    width:100%;
+    margin:auto;
+    background-color: #5E656B;
+    font-size: 16px;
+  }
+  .header{
+    display:none;
+  }
+  .mobileheader{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height:4rem;
+    width:100%;
+    background-color: white;
+    position:fixed;
+    z-index:5;
+  }
+  .mobileheader ul{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin-top: 1.50rem;
+  }
+  .mobileheader li a{
+    padding:0.68rem;
+  }
+  /*test*/
+  .mainsection{
+    position: relative;
+    top: 4.3125rem;
+    left:1.875rem;
+    right:1.875rem;
+    width:95%;
+    background-color: #00A9A5;
+  }
+  .banner{
+    position: relative;
+    width: 60%;
+    top:1.25rem;
+    left: 1.25rem;
+    bottom: 1.25rem;
+    top:1.25rem;
+  }
+  .mainsection h1{
+    font-weight: thin;
+    font-family: Source Sans Pro;
+    font-size: 3em;
+    position: absolute;
+    left: 65%;
+    bottom:60%;
+    color: white;
+  }
+  .bannerbutton{
+    background-color:#657C87;
+    height:6rem;
+    width:20rem;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    left:4rem;
+    bottom:12rem;
+  }
+  .bannerbutton:hover{
+    transition: background-color 200ms ease-in-out 0.15s;
+    background-color: #0C3035;
+  }
+  .bannerbutton h2{
+    font-weight: thin;
+    font-family: Source Sans Pro;
+    font-size: 3em;
+    color:white;
+  }
+  /*middlesection div styling*/
+  .middlesection{
+    position: relative;
+    top: 5rem;
+    left:1.875rem;
+    right:1.875rem;
+    width:95%;
+    height:95%;
+    background-color: #657C87;
+  }
+  .middlesection .left img{
+    position: relative;
+    width: 47rem;
+    height:25rem;
+    left: 1.25rem;
+    top:1.25rem;
+  }
+  .middlesection .left h1{
+    font-weight: thin;
+    font-family: Source Sans Pro;
+    font-size: 3em;
+    position: absolute;
+    left: 5%;
+    bottom:25%;
+    color: white;
+  }
+  .middlesection .left p{
+    font-weight: thin;
+    font-family: arial;
+    font-size: 1.25em;
+    position: absolute;
+    left: 1%;
+    bottom:15%;
+    color: white;
+    text-align: center;
+  }
+  .middlesection .left .name{
+    font-weight: thin;
+    font-family: arial;
+    font-size: 1.5em;
+    position: absolute;
+    left: 28%;
+    bottom:7%;
+    color: white;
+    text-align: center;
+  }
+  /*orientation section*/
+  .middlesection .right .one:hover{
+    transition: background-color 200ms ease .01s;
+    background-color: #657C87;
+    border: 1px solid #657C87;
+  }
+  .middlesection .right .one h1{
+    color:white;
+    font-size: 2em;
+    left: 11rem;
+    top:1em;
+  }
+  .middlesection .right .one{
+    position: absolute;
+    /*width:35%;
+    height:30%;*/
+    width:26.5rem;
+    height:12rem;
+    border: 1px solid #A2B2B2;
+    background-color: #A2B2B2;
+    left: 64%;
+    top:1%;
+  }
+  .middlesection .right .one img{
+    position: relative;
+    left: 2%;
+    width:10rem;
+    height:10rem;
+  }
+  .middlesection .right .one p{
+    position: relative;
+    left: 20%;
+    bottom:40%;
+    font-size: 1rem;
+
+  }
+  .middlesection .right .one a{
+    position: relative;
+    left: 55%;
+    bottom:4rem;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    color:white;
+
+  }
+  /*our campus*/
+  .middlesection .right .two:hover{
+    transition: background-color 200ms ease .01s;
+    background-color: #657C87;
+    border: 1px solid #657C87;
+  }
+  .middlesection .right .two h1{
+    color:white;
+    font-size: 2em;
+    left: 13rem;
+    top:1em;
+  }
+  .middlesection .right .two{
+    position: relative;
+    width:26.5rem;
+    height:13rem;
+    border: 1px solid #A2B2B2;
+    background-color: #A2B2B2;
+    top:3%;
+
+  }
+  .middlesection .right .two img{
+    position: relative;
+    left: 2%;
+    width:10rem;
+    height:10rem;
+  }
+  .middlesection .right .two p{
+    position: relative;
+    left: 20%;
+    bottom:40%;
+    font-size: 1rem;
+
+  }
+  .middlesection .right .two a{
+    position: relative;
+    left: 55%;
+    bottom:4rem;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    color:white;
+
+  }
+  /*guest lecture section*/
+  .middlesection .right .one:hover{
+    transition: background-color 200ms ease .01s;
+    background-color: #657C87;
+    border: 1px solid #657C87;
+  }.middlesection .right .two:hover{
+    transition: background-color 200ms ease .01s;
+    background-color: #657C87;
+    border: 1px solid #657C87;
+  }.middlesection .right .three:hover{
+    transition: background-color 200ms ease .01s;
+    background-color: #657C87;
+    border: 1px solid #657C87;
+  }
+  .middlesection .right .three h1{
+    color:white;
+    font-size: 2em;
+    left: 10.5rem;
+    top:1em;
+    text-align: center;
+  }
+  .middlesection .right .three{
+    position: relative;
+    width:26.5rem;
+    height:13rem;
+    border: 1px solid #A2B2B2;
+    background-color: #A2B2B2;
+    top:10%;
+  }
+  .middlesection .right .three img{
+    position: relative;
+    left: 2%;
+    width:10rem;
+    height:10rem;
+  }
+  .middlesection .right .three p{
+    position: relative;
+    left: 20%;
+    bottom:25%;
+    font-size: 1rem;
+
+  }
+  .middlesection .right .three a{
+    position: relative;
+    left: 55%;
+    bottom:2rem;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    color:white;
+  }
+  /*third section*/
+  .thirdsection{
+    position: relative;
+    top: 5.6rem;
+    left:2rem;
+    right:2rem;
+    width:95%;
+    height:55rem;
+    background-color: #00A9A5;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .thirdsection .startlearning{
+    font-family: Source Sans Pro;
+    font-size: 2em;
+    position: absolute;
+    color: white;
+    left:32rem;
+    top:1rem;
+  }
+  .thirdsection .course:hover{
+    transition: background-color 200ms ease .01s;
+    background-color: #00A9A5;
+  }
+  .thirdsection .course{
+    width: 16rem;
+    height:20rem;
+    background-color: #657C87;
+    margin: 0.75rem;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    position:relative;
+    left:3.5rem;
+    top:5rem;
+  }
+  .thirdsection .course img{
+    width:16rem;
+    height:10rem;
+  }
+  .thirdsection .course h1{
+    font-family: Arial Narrow;
+    font-size: 1.25rem;
+    color: white;
+    position:relative;
+    /*left: 2.25rem;*/
+    top:1rem;
+    letter-spacing:0.05rem;
+    text-align: center;
+  }
+  .thirdsection .course p{
+    font-family: arial;
+    font-size:1.15rem;
+    text-align: center;
+    color:white;
+    position: relative;
+    top:2rem;
+  }
+  /*final section*/
+  .lastsection{
+      position: relative;
+      top: 6.5rem;
+      left:1.875rem;
+      right:1.875rem;
+      width:95%;
+      height:95%;
+      background-color: #657C87;
+  }
+  .lastsection video{
+    position: relative;
+    left:1.875em;
+  }
+  .lastsection h1{
+    font-weight: thin;
+    font-family: Source Sans Pro;
+    font-size: 3em;
+    position: absolute;
+    left:8.5rem;
+    bottom:7rem;
+    color: white;
+  }
+  .lastsection p{
+    font-weight: thin;
+    font-family: arial;
+    font-size: 1.25em;
+    position: absolute;
+    left: 1%;
+    bottom:2rem;
+    color: white;
+    text-align: center;
+  }
+  .lastsection .right{
+    position: relative;
+    bottom:30rem;
+    left:48rem;
+    width:35%;
+    height:55%;
+    background-color: #657C87;
+
+  }
+  .lastsection .right .panel:hover{
+    transition: background-color 200ms ease .01s;
+    background-color:#D1D1D1;
+  }
+  .lastsection .right .panel{
+    position: relative;
+    left:auto;
+    background-color:#657C87;
+  }
+  .lastsection .right .panel img{
+    position: relative;
+    top:2rem;
+    left: .5rem;
+    width:10rem;
+    height:10rem;
+  }
+  .lastsection .right .panel h1{
+    font-size:1.75rem;
+    position: relative;
+    left:12rem;
+  }
+  .lastsection .right .panel p{
+    position: relative;
+    left: 20%;
+    font-size: 1rem;
+    color:white;
+  }
+  .lastsection .right .panel a{
+    position: relative;
+    left: 9em;
+    bottom:4rem;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    color:white;
+
+  }
+  footer{
+    height:2.5rem;
+    width:100%;
+    position: relative;
+    background-color:white;
+    top:8rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer p{
+    font-size: 1
+    rem;
+    color:#657C87;
+    font-family:Helvetica;
+    padding:.20rem;
+  }
+}
