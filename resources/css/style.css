@@ -345,7 +345,7 @@ body{
 }
 .lastsection video{
   position: relative;
-  left:1.875rem;
+  left:1.875em;
 }
 .lastsection h1{
   font-weight: thin;
@@ -377,7 +377,7 @@ body{
 }
 .lastsection .right .panel:hover{
   transition: background-color 200ms ease .01s;
-  background-color:#A2B2B2;
+  background-color:#657C87;
 }
 .lastsection .right .panel{
   position: relative;
@@ -404,10 +404,27 @@ body{
 }
 .lastsection .right .panel a{
   position: relative;
-  left: 55%;
+  left: 9em;
   bottom:4rem;
   font-size: 1.25rem;
   text-decoration: underline;
   color:white;
 
+}
+footer{
+  height:2.5rem;
+  width:100%;
+  position: relative;
+  background-color:white;
+  top:8rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p{
+  font-size: 1
+  rem;
+  color:#657C87;
+  font-family:Helvetica;
+  padding:.20rem;
 }
