@@ -234,7 +234,15 @@ body{
 
 }
 /*guest lecture section*/
-.middlesection .right .three:hover{
+.middlesection .right .one:hover{
+  transition: background-color 200ms ease .01s;
+  background-color: #657C87;
+  border: 1px solid #657C87;
+}.middlesection .right .two:hover{
+  transition: background-color 200ms ease .01s;
+  background-color: #657C87;
+  border: 1px solid #657C87;
+}.middlesection .right .three:hover{
   transition: background-color 200ms ease .01s;
   background-color: #657C87;
   border: 1px solid #657C87;
@@ -377,7 +385,7 @@ body{
 }
 .lastsection .right .panel:hover{
   transition: background-color 200ms ease .01s;
-  background-color:#657C87;
+  background-color:#D1D1D1;
 }
 .lastsection .right .panel{
   position: relative;
